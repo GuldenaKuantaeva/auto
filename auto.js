@@ -10,7 +10,6 @@ let m = T.length;
 let alph = new Array();
 for (i = 0; i < m; i++)
 	alph[T.charAt(i)] = 0;
-alph['*'] = 0;
 
 let del = new Array(m + 1);
 for (j = 0; j <= m; j++)
